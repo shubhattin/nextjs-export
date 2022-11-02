@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-export",
+  "version": "1.0.8",
+  "description": "Utility to support Static HTML export for Nextjs Projects using i18n as well for others.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhattin/nextjs-export.git"
+  },
+  "keywords": [
+    "nextjs",
+    "i18n",
+    "static export"
+  ],
+  "author": "shubhattin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhattin/nextjs-export/issues"
+  },
+  "homepage": "https://github.com/shubhattin/nextjs-export#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "typescript": "^4.8.4"
+  },
+  "bin": {
+    "nextjs-export": "./lib/cli.js"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
+}
