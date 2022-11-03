@@ -4,7 +4,7 @@
   "description": "Utility to support Static HTML export for Nextjs Projects using i18n as well for others.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "tsc",
+    "dev": "tsc -w",
     "prepublishOnly": "tsc"
   },
   "repository": {
